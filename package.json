@@ -1,0 +1,25 @@
+{
+  "name": "t-pi-continue",
+  "version": "0.1.0",
+  "description": "Send Pi a continue message with a cross-platform keyboard shortcut.",
+  "type": "module",
+  "author": "Thomas Sievering",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "shortcut"
+  ],
+  "files": [
+    "README.md",
+    "extensions"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
