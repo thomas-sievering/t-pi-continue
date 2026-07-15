@@ -1,7 +1,7 @@
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 const MESSAGE = "continue";
-const SHORTCUT = "ctrl+alt+enter";
+const SHORTCUT = "ctrl+enter";
 
 export default function (pi: ExtensionAPI) {
 	pi.registerShortcut(SHORTCUT, {
