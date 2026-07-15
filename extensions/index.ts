@@ -3,7 +3,7 @@ import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 const MESSAGE = "continue";
 
 export default function (pi: ExtensionAPI) {
-	pi.registerShortcut("ctrl+space", {
+	pi.registerShortcut("alt+x", {
 		description: "Send a 'continue' user message",
 		handler: async (ctx) => {
 			if (ctx.isIdle()) {
