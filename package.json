@@ -1,7 +1,7 @@
 {
   "name": "t-pi-continue",
   "version": "0.1.0",
-  "description": "Send Pi a continue message with a cross-platform keyboard shortcut.",
+  "description": "Send Pi a continue user message with the /continue command.",
   "type": "module",
   "author": "Thomas Sievering",
   "license": "MIT",

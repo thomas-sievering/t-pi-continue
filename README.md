@@ -1,12 +1,10 @@
 # t-pi-continue
 
-A Pi extension that sends the user message `continue` with a keyboard shortcut.
+A Pi extension that sends the user message `continue`.
 
 ## Usage
 
-- **Windows/Linux:** Alt+C
-- **macOS:** Option+C
-- Command fallback: `/continue`
+- Command: `/continue`
 
 If Pi is busy, the message is queued as a follow-up. If Pi is idle, it is sent immediately.
 
@@ -22,6 +20,3 @@ For local development:
 pi -e D:/pi/t-pi-continue
 ```
 
-## Why this shortcut?
-
-Alt+Enter is already Pi's built-in follow-up-message shortcut, while Shift+Enter inserts a newline. Alt+C is easy to remember: C for “continue”.
