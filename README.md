@@ -4,8 +4,8 @@ A Pi extension that sends the user message `continue` with a keyboard shortcut.
 
 ## Usage
 
-- **Windows/Linux:** Ctrl+Enter
-- **macOS:** Control+Enter
+- **Windows/Linux:** Alt+C
+- **macOS:** Option+C
 - Command fallback: `/continue`
 
 If Pi is busy, the message is queued as a follow-up. If Pi is idle, it is sent immediately.
@@ -24,4 +24,4 @@ pi -e D:/pi/t-pi-continue
 
 ## Why this shortcut?
 
-Alt+Enter is already Pi's built-in follow-up-message shortcut, while Shift+Enter inserts a newline. Ctrl+Enter is otherwise unused by Pi.
+Alt+Enter is already Pi's built-in follow-up-message shortcut, while Shift+Enter inserts a newline. Alt+C is easy to remember: C for “continue”.
